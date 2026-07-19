@@ -10,13 +10,14 @@
 
 **Problem summary:**
 
-The current API documentation lists the available endpoints, but it does 
-not include example `curl` commands that developers can copy and run to 
-test the API. This makes it harder for new contributors to verify that 
-their local server is working correctly during setup. The issue affects 
-the `docs/API.md` documentation. A successful fix will add clear, 
-copy-pasteable `curl` examples for each documented endpoint while 
-keeping the documentation consistent and easy to follow.
+The API documentation currently explains the available endpoints but 
+doesn't provide example `curl` commands that developers can copy and 
+run. This makes it harder for new contributors to quickly verify that 
+the API is working after setting up the project locally. The missing 
+examples are located in `docs/API.md` and affect developer onboarding 
+rather than application functionality. A successful fix will add clear 
+curl examples for the documented endpoints so users can test the API 
+more easily.
 
 **"Is this right for me?" checklist reasoning:**
 
@@ -32,4 +33,43 @@ missing examples before choosing this issue.
 
 **Cohort ledger:** ☐ Issue added to cohort ledger (will update after 
 adding my information)
+
+## Selection reasoning
+
+### Part 1 — Understanding the Issue
+
+- I can explain the issue: The API documentation lists endpoints but 
+does not show example curl commands. The goal is to improve docs/API.md 
+by adding runnable examples.
+- Affected area: This issue affects the documentation layer. The 
+referenced file is docs/API.md.
+- Definition of done: Developers should be able to copy the curl 
+commands from the documentation and use them to test API endpoints.
+
+### Part 2 — Tier Fit
+
+- Tier: Tier 1
+- Reason: This is a small documentation change limited to one file and 
+does not require changes to application logic.
+- This scope is appropriate for my first open-source contribution.
+
+### Part 3 — Codebase Readiness
+
+- I located the affected file: docs/API.md.
+- I reviewed the existing API documentation structure and understand 
+where examples should be added.
+- I will verify examples against the available endpoints and local API 
+setup.
+
+### Part 4 — Scope and Time
+
+- I reviewed issue comments and confirmed other contributors are working 
+on similar tasks, but claims are non-exclusive.
+- Estimated effort: 2–3 hours, which fits within Weeks 8–9.
+- No blockers or dependencies were listed on the issue.
+
+### Verdict
+
+This issue is a good fit because it is a focused Tier 1 documentation 
+improvement with clear acceptance criteria.
 
