@@ -88,6 +88,7 @@ API is working locally.
 
 **PLAN.md link:**
 (To be added after PLAN.md is committed)
+https://github.com/Williyam30/pathreview/blob/docs/117-api-curl-examples/PLAN.md
 
 **Walkthrough video (recommended):**
 Not recorded for now but will do a final video after all.
