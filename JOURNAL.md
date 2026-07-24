@@ -73,3 +73,25 @@ on similar tasks, but claims are non-exclusive.
 This issue is a good fit because it is a focused Tier 1 documentation 
 improvement with clear acceptance criteria.
 
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:**
+(To be added after committing)
+
+**Reproduction summary:**
+
+I opened docs/API.md and confirmed that each API endpoint is described 
+only with text. There are no example curl commands demonstrating how to 
+call the endpoints, making it difficult for new developers to verify the 
+API is working locally.
+
+**PLAN.md link:**
+(To be added after PLAN.md is committed)
+
+**Walkthrough video (recommended):**
+Not recorded for now but will do a final video after all.
+
+**Blockers or open questions:**
+Need to verify request bodies for authentication and profile creation 
+before writing examples.
