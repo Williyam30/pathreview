@@ -28,11 +28,16 @@ Reference files:
 
 ## Plan
 
-1. Review every endpoint documented in API.md.
-2. Verify request methods and required JSON bodies.
-3. Write example curl commands for each endpoint.
-4. Keep formatting consistent with the existing documentation.
-5. Verify examples against the local development server if possible.
+1. Review api/routes/auth.py to determine the exact request format for 
+/auth/register and /auth/login.
+2. Inspect the authentication implementation to confirm how Bearer 
+tokens should be included in authenticated curl examples.
+3. Review the profile routes and schemas to determine whether requests 
+require JSON, form data, or file uploads.
+4. Write tested curl examples for every documented endpoint in 
+docs/API.md.
+5. Verify each example against the local server and ensure the 
+documentation formatting remains consistent.
 
 
 ## Inputs & Outputs
@@ -48,14 +53,23 @@ Updated documentation with complete curl examples for every endpoint.
 
 ## Risks & Unknowns
 
-- Some endpoints require authentication tokens.
-- Need to verify exact JSON payloads.
-- Endpoint paths may differ from assumptions.
+- Some endpoints require authentication tokens: api/routes/auth.py may 
+require different request formats for registration and login, so I need 
+to verify the expected content type before writing examples.
+- Need to verify exact JSON payloads: api/routes/auth.py may require 
+different request formats for registration and login, so I need to 
+verify the expected content type before writing examples.
+- Endpoint paths may differ from assumptions: Authenticated endpoints 
+require a Bearer token, so I need to determine the correct way to 
+demonstrate token usage consistently across the documentation.
 
 ## Edge Cases
 
-- Authenticated endpoints should clearly indicate Authorization headers.
-- Examples should use localhost.
-- JSON formatting should be copy-paste ready.
-
-
+- Login endpoint requires form-encoded data rather than JSON.
+- Profile creation may include uploaded files as multipart form data.
+- Authenticated requests must demonstrate a valid Authorization: Bearer 
+<token> header.
+- Example requests should work against a fresh local installation using 
+http://localhost:8000.
+- Placeholder IDs and tokens should be clearly marked so users know what 
+to replace.

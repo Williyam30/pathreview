@@ -86,6 +86,15 @@ only with text. There are no example curl commands demonstrating how to
 call the endpoints, making it difficult for new developers to verify the 
 API is working locally.
 
+I compared the documentation in docs/API.md with the implementation in 
+the API route files. I found that while the endpoints are listed, the 
+documentation does not explain the correct request formats. For example, 
+/auth/login uses OAuth2PasswordRequestForm, which requires 
+application/x-www-form-urlencoded data instead of JSON, and profile 
+creation accepts form data rather than a simple JSON body. Without 
+runnable curl examples, developers are likely to send incorrect requests 
+when testing the API.
+
 **PLAN.md link:**
 (To be added after PLAN.md is committed)
 https://github.com/Williyam30/pathreview/blob/docs/117-api-curl-examples/PLAN.md
