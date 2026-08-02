@@ -105,3 +105,31 @@ Not recorded for now but will do a final video after all.
 **Blockers or open questions:**
 Need to verify request bodies for authentication and profile creation 
 before writing examples.
+
+
+---
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+
+I implemented the main documentation update from my PLAN.md by adding 
+runnable curl examples to `docs/API.md`. I added examples for all API 
+endpoints including health checks, authentication, profiles, and 
+reviews. During implementation, I verified request formats from the 
+FastAPI route files, including JSON payloads for registration and 
+reviews, form-encoded login requests using OAuth2PasswordRequestForm, 
+and multipart form data for profile creation with resume uploads.
+
+**Next steps:**
+
+I will review the updated documentation for accuracy, run the required 
+project checks, and prepare a pull request. I will also verify that the 
+curl examples work correctly with the local API server and complete the 
+final JOURNAL.md submission update with the PR link.
+
+**Blockers:**
+
+None.
