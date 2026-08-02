@@ -78,6 +78,7 @@ improvement with clear acceptance criteria.
 
 **Reproduction commit link:**
 (To be added after committing)
+https://github.com/Williyam30/pathreview/commit/a83fd91
 
 **Reproduction summary:**
 
@@ -133,3 +134,16 @@ final JOURNAL.md submission update with the PR link.
 **Blockers:**
 
 None.
+
+### Pull Request
+
+**PR link:**
+https://github.com/ascherj/pathreview/pull/595
+
+**PR status:**
+Open
+
+**Validation notes:**
+- `make test-unit` fails due to existing unrelated failures.
+- `make check` fails due to existing lint issues unrelated to 
+documentation changes.
