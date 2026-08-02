@@ -147,3 +147,39 @@ Open
 - `make test-unit` fails due to existing unrelated failures.
 - `make check` fails due to existing lint issues unrelated to 
 documentation changes.
+
+
+### Check-in 2 (end of week)
+
+**PR link:**
+https://github.com/ascherj/pathreview/pull/595
+
+**Branch:**
+`docs/117-api-curl-examples`
+
+**What you built:**
+I updated the API documentation by adding copy-paste curl examples for 
+the documented endpoints, including health checks, authentication, 
+profile, and review endpoints. The goal was to make it easier for 
+developers to test the API locally and understand the required request 
+formats.
+
+**Tests added or updated:**
+No tests were added or updated because this was a documentation-only 
+contribution. No application code was modified.
+
+**Self-review confirmation:**
+[ ] make check passes (fails due to documented pre-existing lint issues 
+unrelated to this documentation change)
+[ ] make test-unit passes (fails due to documented pre-existing failures 
+in security, RAG, parsing, and detection modules)
+
+**Draft PR feedback received from:**
+none
+
+**Additional notes:**
+I was unable to attend the final review calls due to an emergency 
+situation, so I did not receive peer review feedback before submitting 
+the PR. The PR was still completed, validated, and submitted with 
+documented test and lint results.
+
