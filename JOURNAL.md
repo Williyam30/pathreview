@@ -183,3 +183,67 @@ situation, so I did not receive peer review feedback before submitting
 the PR. The PR was still completed, validated, and submitted with 
 documented test and lint results.
 
+
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [x] No — still awaiting review
+
+**Summary of feedback:**
+
+No reviewer or maintainer feedback was received before the course 
+deadline. The pull request remains open and is awaiting review.
+
+**How you responded:**
+
+No response was required because no review comments were received.
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+
+The most challenging part was understanding a large existing codebase 
+before making even a small documentation change. Although my task only 
+involved adding curl examples to the API documentation, I still needed 
+to inspect the authentication routes, profile endpoints, request 
+formats, and existing documentation structure to make sure every example 
+matched the actual implementation. Learning how an unfamiliar project is 
+organized took much more time than writing the documentation itself.
+
+**What did you learn about working in a large codebase?**
+
+I learned that contributing to an existing project is very different 
+from building my own projects. Instead of deciding everything myself, I 
+had to follow the repository's structure, coding standards, branch 
+naming conventions, commit message style, and contribution process. I 
+also learned the importance of reading documentation first and verifying 
+how features actually work before making changes.
+
+**How did AI tools help — and where did they fall short?**
+
+AI was very helpful for understanding unfamiliar files, explaining how 
+different API endpoints worked, and helping me prepare documentation and 
+my pull request. However, AI could not replace manually verifying the 
+repository or checking whether examples matched the implementation. I 
+still needed to review the code, confirm request formats, run project 
+commands, and ensure the documentation was accurate.
+
+**What would you do differently if you started over?**
+
+If I started over, I would claim an issue and open a draft pull request 
+earlier. I would also spend more time exploring the repository before 
+beginning implementation so I could understand how different parts of 
+the project fit together. This would make the implementation process 
+smoother and leave more time for review and feedback.
+
+**What are you most proud of from this module?**
+
+I am most proud that I completed my first open-source contribution from 
+start to finish. I successfully selected an issue, investigated the 
+project, planned the solution, updated the documentation, submitted a 
+pull request, and documented the entire development process using 
+professional Git and GitHub workflows.
